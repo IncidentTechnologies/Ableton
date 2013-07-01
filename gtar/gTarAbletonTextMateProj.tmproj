@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>documents</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>/Live 8.2 OS X/Live.app/Contents/App-Resources/MIDI Remote Scripts/gTar/__init__.py</string>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>/Live 8.2 OS X/Live.app/Contents/App-Resources/MIDI Remote Scripts/gTar/ClipController.py</string>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>/Live 8.2 OS X/Live.app/Contents/App-Resources/MIDI Remote Scripts/gTar/ClipSlotController.py</string>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>/Live 8.2 OS X/Live.app/Contents/App-Resources/MIDI Remote Scripts/gTar/consts.py</string>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>/Live 8.2 OS X/Live.app/Contents/App-Resources/MIDI Remote Scripts/gTar/GtarController.py</string>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>/Live 8.2 OS X/Live.app/Contents/App-Resources/MIDI Remote Scripts/gTar/SongController.py</string>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>/Live 8.2 OS X/Live.app/Contents/App-Resources/MIDI Remote Scripts/gTar/TrackController.py</string>
+			<key>selected</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>/Live 8.2 OS X/Live.app/Contents/App-Resources/MIDI Remote Scripts/gTar/Transport.py</string>
+			<key>selected</key>
+			<true/>
+		</dict>
+	</array>
+	<key>fileHierarchyDrawerWidth</key>
+	<integer>200</integer>
+	<key>metaData</key>
+	<dict/>
+	<key>showFileHierarchyDrawer</key>
+	<true/>
+	<key>windowFrame</key>
+	<string>{{210, 4}, {1470, 1024}}</string>
+</dict>
+</plist>
