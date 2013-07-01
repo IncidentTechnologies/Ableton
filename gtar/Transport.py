@@ -25,27 +25,28 @@ class Transport(ControlSurface):
 	m_SongController = None
 	m_GtarController = None
 
-	def __init__(self, c_instance):
-		"""gTar Control Surface Initializer"""
-		ControlSurface.__init__(self, c_instance)
-		self.LogMessage("-- gTar Opened --")
-		self._setup_transport_control() 	
-		self.m_c_instance = c_instance;	
-		self.m_app = Live.Application.get_application() # get a handle to the App
+    from __future__ import with_statement
+        def __init__(self, c_instance):
+            """gTar Control Surface Initializer"""
+            ControlSurface.__init__(self, c_instance)
+            self.LogMessage("-- gTar Opened --")
+            self._setup_transport_control() 	
+            self.m_c_instance = c_instance;	
+            self.m_app = Live.Application.get_application() # get a handle to the App
 
-		# Set up the gTar Control first since the live set may need to access
-		# the hardware right away
-		self.m_GtarController = GtarController(self)
-		self.m_GtarController.Initialize()
+            # Set up the gTar Control first since the live set may need to access
+            # the hardware right away
+            self.m_GtarController = GtarController(self)
+            self.m_GtarController.Initialize()
 
-		# Set up the song control 
-		self.m_SongController = SongController(self, 6, 12, 0, 0)
-		
-		# show console success
-		maj = self.m_app.get_major_version() 
-		min = self.m_app.get_minor_version() 
-		bug = self.m_app.get_bugfix_version()
-		self.ShowDebugMessage(str(maj) + "." + str(min) + "." + str(bug) + " started successfully") 
+            # Set up the song control 
+            self.m_SongController = SongController(self, 6, 12, 0, 0)
+            
+            # show console success
+            maj = self.m_app.get_major_version() 
+            min = self.m_app.get_minor_version() 
+            bug = self.m_app.get_bugfix_version()
+            self.ShowDebugMessage(str(maj) + "." + str(min) + "." + str(bug) + " started successfully") 
 	
 	def GetHandle(self):
 		return self.m_c_instance.handle()
